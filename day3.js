@@ -4,11 +4,11 @@
 let number1 = 10; // Change this value to test different cases
 
 if (number1 > 0) {
-    console.log("Task 1: The number is positive.");
+    console.log(" The number is positive.");
 } else if (number1 < 0) {
-    console.log("Task 1: The number is negative.");
+    console.log("The number is negative.");
 } else {
-    console.log("Task 1: The number is zero.");
+    console.log(" The number is zero.");
 }
 
 // Output: The number is positive.
@@ -17,9 +17,9 @@ if (number1 > 0) {
 let age = 20; // Change this value to test different cases
 
 if (age >= 18) {
-    console.log("Task 2: The person is eligible to vote.");
+    console.log(" The person is eligible to vote.");
 } else {
-    console.log("Task 2: The person is not eligible to vote.");
+    console.log(" The person is not eligible to vote.");
 }
 
 // Output: The person is eligible to vote.
@@ -34,15 +34,15 @@ let c = 30;
 
 if (a >= b) {
     if (a >= c) {
-        console.log("Task 3: The largest number is " + a);
+        console.log(" The largest number is " + a);
     } else {
-        console.log("Task 3: The largest number is " + c);
+        console.log(" The largest number is " + c);
     }
 } else {
     if (b >= c) {
-        console.log("Task 3: The largest number is " + b);
+        console.log(" The largest number is " + b);
     } else {
-        console.log("Task 3: The largest number is " + c);
+        console.log(" The largest number is " + c);
     }
 }
 
@@ -82,7 +82,7 @@ switch (dayNumber) {
         break;
 }
 
-console.log("Task 4: The day is " + dayName);
+console.log(" The day is " + dayName);
 
 // Output: The day is Tuesday.
 
@@ -108,7 +108,7 @@ switch (true) {
         break;
 }
 
-console.log("Task 5: The grade is " + grade);
+console.log(" The grade is " + grade);
 
 // Output: The grade is B.
 
@@ -119,7 +119,7 @@ console.log("Task 5: The grade is " + grade);
 let num = 7; // Change this value to test different cases
 let result1 = (num % 2 === 0) ? "even" : "odd";
 
-console.log("Task 6: The number is " + result1);
+console.log(" The number is " + result1);
 
 // Output: The number is odd.
 
@@ -131,9 +131,9 @@ let year = 2024; // Change this value to test different cases
 let isLeapYear = (year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0);
 
 if (isLeapYear) {
-    console.log("Task 7: The year is a leap year.");
+    console.log(" The year is a leap year.");
 } else {
-    console.log("Task 7: The year is not a leap year.");
+    console.log(" The year is not a leap year.");
 }
 
 // Output: The year is a leap year.
