@@ -2,7 +2,7 @@
 
 //task1
 
-import{add as sum} from './export.js';
+import{lodash1, add as sum} from './export.js';
 console.log(sum(2,3));//output=5
 
 //task2
@@ -33,5 +33,20 @@ console.log(newexport.add3(4));
 
 //activity 4
 
+//task6
+import _ from '../node_modules/lodash';
+const array = [1, 2, 3, 4, 5, 6, 7, 8];
+    const reversedArray = _.reverse(array);
 
+    console.log(reversedArrayArray); // Output: [ 8,7,6,5,4,3,2,1]
+
+//task7
+
+axios.get('https://jsonplaceholder.typicode.com/posts')
+  .then(response => {
+    console.log('Data received successfully');
+  })
+  .catch(error => {
+    console.error('Error:', error);
+  });
 
